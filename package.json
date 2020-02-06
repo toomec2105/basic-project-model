@@ -1,0 +1,35 @@
+{
+  "name": "model",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "init": "npm i && npm run spec",
+    "spec": "node node_modules/jasmine/bin/jasmine init",
+    "dev": "npx parcel src/index.html",
+    "build": "npx parcel build src/index.html",
+    "deploy": "npx gh-pages -d dist",
+    "test": "npx jasmine"
+  },
+  "homepage": "https://toomec2105.github.io/XXXXXXXXXXX/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toomec2105/XXXXXXXXX.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/register": "^7.8.3",
+    "gh-pages": "^2.2.0",
+    "jasmine": "^3.5.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "author": "toomec2105",
+  "license": "ISC"
+}
