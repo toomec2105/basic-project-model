@@ -6,12 +6,12 @@
   "scripts": {
     "init": "npm i && npm run spec",
     "spec": "node node_modules/jasmine/bin/jasmine init",
+    "test": "npx jasmine",
     "start": "npx parcel src/index.html",
     "build": "npx parcel build src/index.html",
     "deploy": "npx gh-pages -d dist",
-    "test": "npx jasmine",
-    "lint": "npx eslint src/javascripts/index.js",
-    "fixlint": "npx eslint src/javascripts/index.js --fix"
+    "lint": "npx eslint src/javascripts/**/*.js  spec/**/*.js",
+    "fixlint": "npx eslint src/javascripts/**/*.js  spec/**/*.js --fix"
   },
   "homepage": "https://toomec2105.github.io/XXXXXXXXXXX/",
   "repository": {
