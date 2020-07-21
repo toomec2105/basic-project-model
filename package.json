@@ -38,8 +38,8 @@
     "browserslist": "^4.13.0",
     "caniuse-lite": "^1.0.30001104"
   },
-  "browserslist": [
-    "last 2 Chrome versions"
+  "browserslist": [   
+   "> 0.25%, not dead"
   ],
   "author": "toomec2105",
   "license": "ISC"
