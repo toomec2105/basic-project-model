@@ -1,3 +1,8 @@
+import { okGame } from "../javascripts/module/sportMessager";
+
+//console.log(okGame("Football"));
+//works ok
+
  // add this comment at the top to modify the given rule on this page  ---> /* eslint no-console: 0 */
 
 /*eslint-disable no-alert, no-console */

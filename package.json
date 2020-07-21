@@ -18,8 +18,7 @@
     "type": "git",
     "url": "git+https://github.com/toomec2105/XXXXXXXXX.git"
   },
-  "dependencies": {
-    
+  "dependencies": {    
     "local-storage": "^2.0.0",
     "lodash": "^4.17.19",
     "normalize.css": "^8.0.1",

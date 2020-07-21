@@ -5,7 +5,7 @@
 const myvar = 1; */
 
 // -------------- test jasmine -----------------------
-const _ = require('lodash');
+const _ = require("lodash");
 
 function addTwoNumbersWithLodash(num1, num2) {
   return _.add(num1, num2);
@@ -14,3 +14,11 @@ function addTwoNumbersWithLodash(num1, num2) {
 module.exports = {
   addTwoNumbersWithLodash,
 };
+// const helper = require ("....");
+// helper.addTwoNumbersWithLodash(2,3); 
+
+// but if like this 
+// module.exports = addTwoNumbersWithLodash;
+// then you can require it like this:
+//const addTwoNumbersWithLodash = require ("......");
+// addTwoNumbersWithLodash(2,3); 
