@@ -22,7 +22,7 @@ module.exports = {
     'no-var': 2,
     'no-console': 2, // error
     semi: ['error', 'always'], // require semicolons
-    quotes: ['error', 'double'], // require double quotes
+    quotes: ['error', 'single'], // require double quotes
     'prefer-const': 2,
     'no-undef': 0,
   },

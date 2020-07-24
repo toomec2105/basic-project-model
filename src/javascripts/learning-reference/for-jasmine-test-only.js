@@ -4,7 +4,8 @@
 /* console.log("Javascript connected");
 const myvar = 1; */
 
-// -------------- test jasmine -----------------------
+// example of require & module.exports
+// -------------- for testing jasmine -----------------------
 const _ = require("lodash");
 
 function addTwoNumbersWithLodash(num1, num2) {
