@@ -1,10 +1,11 @@
-var index = require ("../src/javascripts/index");
+/*eslint-env node, jasmine */
 
-describe('Test numbers adder', function () {
+const helper = require ('../src/javascripts/learning-reference/for-jasmine-test-only');
+
+describe('Mock test for jasmine', function () {
    
-
     it('Add 2 to 3', function () {
-        let sum = index.addTwoNumbersWithLodash(2,3);
+        let sum = helper.addTwoNumbersWithLodash(2,3);
         expect(sum).toEqual(5);
     });
 
