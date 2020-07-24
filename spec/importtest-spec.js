@@ -1,10 +1,10 @@
-import { okGame } from "../src/javascripts/module/sportMessager";
+import { okGame } from '../src/javascripts/learning-reference/gameMessage';
 
-describe("Mock test for jasmine - test import export works as expected", function () {
+describe('Mock test for jasmine - test import export works as expected', function () {
    
-    it("Create correct message", function () {
+    it('Create correct message', function () {
       
-        expect(okGame("Football")).toEqual("Football ok!");
+        expect(okGame('Football')).toEqual('Football ok!');
         
     });
 

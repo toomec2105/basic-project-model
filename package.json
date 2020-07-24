@@ -13,10 +13,10 @@
     "lint": "npx eslint src/javascripts/**/*.js  spec/**/*.js",
     "fixlint": "npx eslint src/javascripts/**/*.js  spec/**/*.js --fix"
   },
-  "homepage": "https://toomec2105.github.io/XXXXXXXXXXX/",
+  "homepage": "https://yourGithubUserName.github.io/XXXXXXXXXXX/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/toomec2105/XXXXXXXXX.git"
+    "url": "git+https://github.com/yourGithubUserName/XXXXXXXXX.git"
   },
   "dependencies": {    
     "local-storage": "^2.0.0",

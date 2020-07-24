@@ -6,7 +6,7 @@ const myvar = 1; */
 
 // example of require & module.exports
 // -------------- for testing jasmine -----------------------
-const _ = require("lodash");
+const _ = require('lodash');
 
 function addTwoNumbersWithLodash(num1, num2) {
   return _.add(num1, num2);
